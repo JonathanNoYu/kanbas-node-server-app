@@ -4,6 +4,8 @@ import Lab5 from "./lab5.js";
 import cors from "cors";
 import CourseRoutes from "./Courses/routes.js";
 import ModuleRoutes from "./Modules/routes.js";
+import "dotenv/config";
+import session from "express-session";
 
 const app = express();
 app.use(cors());
